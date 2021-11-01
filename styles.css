@@ -1,0 +1,70 @@
+body {
+    font-family: "Pacifico", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+  }
+  
+  .title {
+    color: white;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20vh;
+  }
+  
+  #progress-container {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10vh;
+    position: relative;
+  }
+  
+  #progress {
+    position: absolute;
+    width: 0%;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: #12c2e9;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(to right, #fd02ff, #7f80ff, #01fdff);
+    background: linear-gradient(to right, #fd02ff, #7f80ff, #01fdff);
+  }
+  
+  #indicator {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  #controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  
+  #start {
+    background-color: #202020;
+    border: 1px solid #fafafa;
+    background: linear-gradient(to right, #fd02ff, #7f80ff, #01fdff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0.8rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 20px;
+  }
+  
+  #start:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+  }
+
+  
